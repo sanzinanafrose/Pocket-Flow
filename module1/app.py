@@ -5,7 +5,7 @@ import hashlib
 import os
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__) 
 app.secret_key = os.environ.get('SECRET_KEY', 'module1-secret-key')
 app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024  # 2 MB limit
 
