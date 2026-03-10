@@ -50,7 +50,7 @@
             <input type="hidden" name="current_password" value="">
             <button type="submit" class="btn btn-sm btn-outline-danger mt-2"
                     onclick="return confirm('Remove your profile picture?')">
-              <i class="bi bi-trash me-1"></i>Remove Photo
+              <i class="bi bi-trash me-1"></i>Remove your Photo
             </button>
           </form>
         {% endif %}
@@ -61,7 +61,7 @@
   <!-- Update form -->
   <div class="card shadow-sm">
     <div class="card-header bg-white fw-semibold">
-      <i class="bi bi-pencil me-2 text-primary"></i>Update Profile
+      <i class="bi bi-pencil me-2 text-primary"></i>Update your Profile
     </div>
     <div class="card-body p-4">
       <form method="POST" action="{{ url_for('profile') }}"
